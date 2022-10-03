@@ -1,0 +1,29 @@
+body {
+    font-family: Comfortaa ;
+    background-color: #38e0c1 ;
+    color: #942e07 ;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fredoka One";
+    font-size:40pt;
+}
+header {
+text-align: center;
+}
+#hero, footer {
+    border: solid #942e07;
+    color: #942e07;
+    background-color: #16947d;
+    text-align: center;
+    padding: 20px;
+}
+#hero img {
+    width: 250px;
+}
+#hobbies {
+    text-align: left;
+
+}
+
+
