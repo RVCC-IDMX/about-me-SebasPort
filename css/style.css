@@ -1,29 +1,56 @@
 body {
     font-family: Comfortaa ;
-    background-color: #38e0c1 ;
-    color: #942e07 ;
+    background-color: #c5f049 ;
+    color: #2b50db;
 
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Fredoka One";
     font-size:40pt;
+    color: #2b50db;
+}
+h1 {
+    font-size: 40pt; 
+}
+h2 {
+    font-size: 30pt;
 }
 header {
 text-align: center;
 }
 #hero, footer {
-    border: solid #942e07;
-    color: #942e07;
-    background-color: #16947d;
+    border: solid #2b50db;
+    border-radius: 20px;
+    border-style: ;
+    color: #2b50db;
+    background-color: #fa710f;
     text-align: center;
     padding: 20px;
+    font-size: 20px;
+    box-shadow: 5px 5px  #000;
 }
 #hero img {
-    width: 250px;
+    width: 350px;
 }
-#hobbies {
+#biography ol li:nth-child(even)  {
     text-align: left;
+    color:#fa7100;
+    font-size: 15px;
 
 }
+#biography ol li:nth-child(3n+3) {
+    color: #d577db
+}
+#hobbies ul li:nth-child(even) {
+    font-size: 15px;
+    color:#fa7100
 
+
+
+    
+
+}
+#hobbies ul li:nth-child(3n+3) {
+color: #d577db;
+}
 
