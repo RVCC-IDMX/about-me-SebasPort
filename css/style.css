@@ -21,7 +21,6 @@ text-align: center;
 #hero, footer {
     border: solid #2b50db;
     border-radius: 20px;
-    border-style: ;
     color: #2b50db;
     background-color: #fa710f;
     text-align: center;
@@ -29,9 +28,11 @@ text-align: center;
     font-size: 20px;
     box-shadow: 5px 5px  #000;
 }
+/*Hero Section*/
 #hero img {
     width: 350px;
 }
+/*Bio section*/
 #biography ol li:nth-child(even)  {
     text-align: left;
     color:#fa7100;
@@ -41,6 +42,7 @@ text-align: center;
 #biography ol li:nth-child(3n+3) {
     color: #d577db
 }
+/* Hibbies section*/
 #hobbies ul li:nth-child(even) {
     font-size: 15px;
     color:#fa7100
@@ -53,4 +55,10 @@ text-align: center;
 #hobbies ul li:nth-child(3n+3) {
 color: #d577db;
 }
+/*Gallery Section*/
+
+#gallery [
+
+
+]
 
