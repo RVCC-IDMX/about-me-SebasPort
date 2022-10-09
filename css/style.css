@@ -42,7 +42,7 @@ text-align: center;
 #biography ol li:nth-child(3n+3) {
     color: #d577db
 }
-/* Hibbies section*/
+/* Hobbies section*/
 #hobbies ul li:nth-child(even) {
     font-size: 15px;
     color:#fa7100
@@ -57,8 +57,40 @@ color: #d577db;
 }
 /*Gallery Section*/
 
-#gallery [
+
+/*literature*/
+#lit {
+    border:2px solid #2b50db; 
+    margin-bottom: 2rem;
+
+}
+#lit div {
+    padding:2rem;
+    max-width:40rem;
+    margin: 0 auto;
+
+}
+#lit div p {
+    padding:0.3rem 0;
+    clear:both;
+}
+/*Dropcats*/
+#lit div p:first-letter {
+color:#2b50db;
+float:left;
+font-size:2em;
+line-height:  1em;
+border:1px solid black;
+background-image:radial-gradient(green,yellow);
+margin-right:.25em;
+text-shadow:1px 1px 1px 1px #2b50db;
+box-shadow:black;
+border-top-left-radius: .25em;
+border-bottom-right-radius: .25em;
 
 
-]
 
+
+
+
+}
