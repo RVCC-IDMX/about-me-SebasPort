@@ -1,6 +1,6 @@
 body {
     font-family: Comfortaa ;
-    background-color: #c5f049 ;
+    background-color:#c5f049 ;
     color: #2b50db;
 
 }
@@ -57,11 +57,26 @@ color: #d577db;
 }
 /*Gallery Section*/
 
+#gallery {
+    border: 3px solid #2b50db;
+    border-radius: .75em;
+    margin-bottom: 3rem;
+  
+}
+#gallery img {
+max-width: 100% ;
+
+}
+#gallery figure {
+    text-align: center;
+}
 
 /*literature*/
 #lit {
-    border:2px solid #2b50db; 
-    margin-bottom: 2rem;
+    border: 3px solid #2b50db;
+    border-radius: .75em;
+    margin-bottom: 3rem;
+    
 
 }
 #lit div {
@@ -78,9 +93,9 @@ color: #d577db;
 #lit div p:first-letter {
 color:#2b50db;
 float:left;
-font-size:2em;
+font-size:3em;
 line-height:  1em;
-border:1px solid black;
+border:2px solid black;
 background-image:radial-gradient(green,yellow);
 margin-right:.25em;
 text-shadow:1px 1px 1px 1px #2b50db;
