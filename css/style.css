@@ -105,6 +105,13 @@ max-width: 100% ;
     padding:0.3rem 0;
     clear:both;
 }
+/*Video Section*/
+#myvideo {
+display: flex;
+ align-items: center;
+   
+
+}
 /*Dropcats*/
 #lit div p:first-child:first-letter {
 color:#2b50db;
@@ -133,7 +140,7 @@ figcaption{
     margin-left: 1rem;
 }
 figure img{
-    width: 100%;
+    max-width: 100%;
 }
  #lit div {
 max-width: 100%;
@@ -157,4 +164,6 @@ figure{
     display:block;
 }
 }
+
+
     
