@@ -52,6 +52,23 @@ width: 5vw;
 
 /* navigation list */
 
+.navbar-links li {
+
+  list-style: none;  
+  display:block;
+  padding: 0.5em 0;
+}
+
+.navbar-links a{
+    color: #2b50db;
+    background-color:#fa710f;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+}
+
 
 /*  
  style all a tags in header 
