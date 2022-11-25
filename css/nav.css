@@ -37,6 +37,17 @@ padding: 2vw;
 
 /* logo */
 
+.logo {
+display: flex;
+align-items: center;
+}
+.logo img {
+height: 5vw;
+width: 5vw;
+}
+.logo h1 {
+    font-size: 1.2em;
+}
 
 
 /* navigation list */
