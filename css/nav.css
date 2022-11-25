@@ -25,6 +25,14 @@ padding: 2vw;
 
 /* navbar */
 
+.navbar {
+ background-color: #fa710f;
+ color: #2b50db;
+ display: flex;
+ flex-direction: column;
+ font-size: 1.5rem;
+ margin-bottom: 1rem;
+}
 
 
 /* logo */
