@@ -68,6 +68,15 @@ width: 5vw;
     text-decoration: none;
     display: inline-block;
 }
+.navbar-links a:hover , 
+.navbar-links a:focus{
+    color: #2b50db;
+filter: invert(1);
+border-radius: 10px;
+outline: none;
+
+
+}
 
 
 /*  
