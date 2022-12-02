@@ -11,4 +11,13 @@ For my colors, I went with this:
 -#F3D4B8 (light Beige)
 -#c6c6c6 (light gray)
 -#280085(Blue)
+I originally had other colors, which were the following:
+-#q1fa1a (neon green)
+-#d577db(pink)
+-#c5f049(light neon green)
+-#2b50db(blue)
+-#fa7100 (orange)
+I did not like how the end result looked, so I decided to go for another color scheme. 
 
+ ### Disclaimer:
+All content is personal and was not taken from someone else. So no citations needed.
