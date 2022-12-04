@@ -20,6 +20,10 @@ h2 {
 header {
 text-align: center;
 }
+#hero img{
+    border: ridge 15px #823b00;
+   
+}
 #hero, footer {
     border: solid 5px #280085;
     border-radius: 20px;

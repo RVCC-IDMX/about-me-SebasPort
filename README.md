@@ -19,5 +19,8 @@ I originally had other colors, which were the following:
 -#fa7100 (orange)
 I did not like how the end result looked, so I decided to go for another color scheme. 
 
- ### Disclaimer:
-All content is personal and was not taken from someone else. So no citations needed.
+ ### Citations:
+All content is personal and was not taken from someone else yet. So no citations needed.
+### license
+For my license, I would like to have all copyright licenses private, Although it is open for the public, no one can modify, distribute or monetize this website without permission and proper attribution.
+
