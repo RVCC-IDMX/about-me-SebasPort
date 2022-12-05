@@ -20,7 +20,7 @@ I originally had other colors, which were the following:
 I did not like how the end result looked, so I decided to go for another color scheme. 
 
  ### Citations:
-All content is personal and was not taken from someone else yet. So no citations needed.
+ I got the github svg logo from this website, since I didn't know if Github gave you that option or if there is a better way: https://iconmonstr.com/github-1-svg/
 ### license
 For my license, I would like to have all copyright licenses private, Although it is open for the public, no one can modify, distribute or monetize this website without permission and proper attribution.
 
