@@ -20,10 +20,10 @@ h2 {
 header {
 text-align: center;
 }
-#hero img{
-    border: ridge 15px #823b00;
+
    
-}
+   
+
 #hero, footer {
     border: solid 5px #280085;
     border-radius: 20px;
@@ -36,7 +36,8 @@ text-align: center;
 }
 /*Hero Section*/
 #hero img {
-    width: 350px;
+    border: ridge 15px #823b00;
+    width: 300px;
 }
 /* Me trying to center img for smartphone view.
 #hero img {
