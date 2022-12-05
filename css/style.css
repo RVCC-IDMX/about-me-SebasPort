@@ -38,6 +38,13 @@ text-align: center;
 #hero img {
     width: 350px;
 }
+/* Me trying to center img for smartphone view.
+#hero img {
+    display: flex;
+    justify-content: center;
+}*/
+
+
 /*Bio section*/
 #biography{
     text-align: center;
@@ -54,6 +61,7 @@ text-align: center;
 #biography ol li:nth-child(3n+3) {
     color: #ffffff
 }
+
 
 
 /* Hobbies section*/
@@ -151,6 +159,8 @@ figure img{
 max-width: 100%;
 columns: 40rem
 }   
+
+    
 
 }
 /*Larger screen size*/
