@@ -21,6 +21,13 @@ I did not like how the end result looked, so I decided to go for another color s
 
  ### Citations:
  I got the github svg logo from this website, since I didn't know if Github gave you that option or if there is a better way: https://iconmonstr.com/github-1-svg/
+For my blog section, I used mdn references, which I will link down below, and for the animation I chose I learned how to do them with a videpo
+https://youtu.be/k51lo2IM5wg (video)
+- For learning how keyframes work I used this:
+https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
+-I also looked up how to activate an animation with the hover effect:
+https://developer.mozilla.org/en-US/docs/Web/CSS/:hover
+-
 ### license
 For my license, I would like to have all copyright licenses private, Although it is open for the public, no one can modify, distribute or monetize this website without permission and proper attribution.
 
