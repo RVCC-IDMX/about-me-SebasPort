@@ -4,6 +4,7 @@ body {
     color: #f3d4b8;
 
 }
+/*Body parts, paragraphs and titles*/
 h1, h2, h3, h4, h5, h6 {
     font-family: "Fredoka One";
     font-size:40pt;
@@ -21,7 +22,7 @@ header {
 text-align: center;
 }
 
-
+/*hero, footer mini section*/
 #hero, footer {
     border: solid 5px #280085;
     border-radius: 20px;
@@ -114,7 +115,8 @@ max-width: 100% ;
     clear:both;
 }
 
-
+/*Blog section*/
+/*Animation*/
 .smily {
     flex-direction: column;
     display: flex;
@@ -174,6 +176,10 @@ max-width: 100% ;
 .smily:hover{
     animation: rotation 3s infinite linear ;
 }
+/*Blog lit*/
+#blog a{
+    color: #f3d4b8;
+}
 @keyframes rotation {
     from {
         transform: rotate(0deg);
@@ -198,7 +204,7 @@ max-width: 100% ;
 }
 #blog img{
     max-width: 100%;
-    
+
 }
 
 

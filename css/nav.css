@@ -82,9 +82,7 @@ scroll-behavior: smooth;
 #nav__checkbox:checked ~ .navbar-links {
     display:block;
 }
-/*.nav__toggle{
-    display: none;
-}*/
+
 /*media state for it to appear only on small sizes*/
 @media only screen and (min-width:560){
     .nav, .nav__toggle, .nav__menu{
