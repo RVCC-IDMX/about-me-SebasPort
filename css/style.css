@@ -118,6 +118,108 @@ max-width: 100% ;
     padding:0.3rem 0;
     clear:both;
 }
+/*Blog Animation Section*/
+/*.smily body{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}*/
+
+.smily {
+   /*position:center;*/
+   /*display: inline-block;*/
+   /* align-self: center;*/
+   /* top: 470%;
+    left: 50%;*/
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 200px;
+    color: yellow;
+    background-color: yellow ;
+    border: 5px solid #000000;
+    border-radius: 100px;
+    
+    
+}
+.eyes:before , .eyes::after {
+    content:"";
+    position: absolute;
+   top:30% ;
+    width: 25px;
+    height: 25px;
+    background:#000000;
+     color: #000000;
+    border-radius:50% ;
+    transform: 0.5s;
+}
+
+
+
+.eyes::before{
+    left: 25%;
+}
+.eyes::after{
+    right: 25%;
+}
+.smily:hover .eyes:before, .smily:hover .eyes::after{
+    width: 30px;
+    height: 45px;
+}
+.lips{
+   position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 6px solid transparent;
+    border-bottom: 10px  solid #000000;
+    border-radius: 0;
+    transition: 0.5s;
+    top:20% ;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.smily:hover .lips{
+    width: 130px;
+    border-radius: 50%;
+}
+/*.smily:hover{
+    transition-duration: 2s;
+    transform: rotate(180deg);
+    transform: rotate();
+
+    
+}*/
+.smily:hover{
+    animation: rotation 3s infinite linear ;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+        }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#blog {
+    border: 3px solid #f3d4b8;
+    border-radius: .75em;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: .75em;
+
+}
+#blog p {
+    align-items: center;
+}
+
+
+
 /*Video Section*/
 #myvideo {
 display: flex;
@@ -178,6 +280,11 @@ hr{
 }
 figure{
     display:block;
+}
+
+#blog img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 }
 /*contact form*/

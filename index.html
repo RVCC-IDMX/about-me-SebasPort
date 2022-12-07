@@ -26,6 +26,12 @@
           <li> <a href="#contact">Contact Me</a></li>
     </ul>
     </div>
+  <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+  <label for="nav__checkbox" class="nav__toggle">
+    
+  </label>
+ 
+  
  </nav>
  </header>
  <!--End of header-->
@@ -122,6 +128,67 @@
                 <p>This was my reception, which I believe you will not call a very cordial one. Madame Duval, who, after having severely reprimanded M. Du Bois for his negligence, was just entering upon the story of her misfortunes, now wholly engaged the company.</p>
             </div>
         </article>
+
+        <h2>CSS Animation</h2>
+
+
+       <!--<div class="smily">
+           <div class="eyes"></div>
+           <div class="lips"></div>
+        </div>-->
+        
+        <div id="blog">
+        <div class="happy-container">
+        <div class="smily">
+         <div class="eyes"></div>
+        <div class="lips"></div>
+            </div>
+        </div>
+    
+        
+        <p>CSS animation is a fun way of creating art, it is one of the lessons I learned during class.
+             There are many things you can create using css with all the features it offers. 
+            CSS animation allows elements to gradually change from one style to another. Like previously mentioned, 
+            there are many properties that you can use at the same time which is very cool. 
+            For my animation, I chose a smiley face done purely in css! I did this by first creating different divs, 
+            each with their own class containing their respective name and content.
+        </p>
+        
+        <img src="img/smily-facedivs.png" alt="my divs for the smiley face">
+
+       <p>After doing that, most of the work will be done in CSS, where things get tricky. 
+        I worked on separate categories for each part of the smiley face.
+         The first div with the class smiley hold all the other parts of the face, the eyes and lips.
+        </p>
+
+        <!--Space for when smiley is fixed correctly-->
+
+        <p>After being done with doing the face, I went ahead and added the eyes and lips part. 
+            For each, there are going to be two steps, one state being before the user hovers on the smiley face,
+             and one state that is after the user hovers over it </p>
+
+        <img src="img/eyes-before-after.png" alt="code for the eyes in y smily face">
+
+        <p>The :: (before and after) help create a pseudo element which is the first child of the element, in this case the eyes.
+            As seen above, I used them to determine the state of the element before and after.</p>
+
+        <p>Next, I set the eyes positions for before and after, and put them in a selector with the smiley div</p>
+
+        <img src="img/eyes-combined-with-smiley.png" alt="the eyes div and smiles div put together in a selector" width="400" height="270">
+
+        <p>Next, I added the lips, and gave it some properties like I did to the eyes and face </p>
+
+        <img src="img/lips-for-smiley.png" alt="the code for making the lips for my smiley face">
+
+        <p>I also added a hover effect to the lips, which will make it smile when it's hovered on.
+            I also added a @keyframe tag, which is an important part of CSS animation.
+             Keyframes sets properties that happens in a animation depending on what time frame you set it to.
+             This helps anyone that wants to make CSS animation have more control on the animation's process.</p>
+
+        <img src="img/keyframes-smiley.png" alt="the keyframes for my smiley animation">
+
+        </div>
+        
         <!--End of Article section-->
 
         <!--Start of Video Section-->
