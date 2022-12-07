@@ -4,6 +4,98 @@ html {
 scroll-behavior: smooth;
 }
 
+.nav{
+    border-bottom: 1px solid #f3d4b8;
+    position: absolute;
+    margin: 0rem 1rem;
+    right: 0;
+    background-color: #823b00;
+    border-radius: 5px;
+}
+/*Hamburguer icon*/
+.nav img{
+    width: 1.5rem;
+    fill: #f3d4b8;
+}
+/*Positioning*/
+.nav__toggle{
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right: 0;
+
+}
+/*geetting rid of x icon*/
+.close{
+    display: none;
+}
+/*spacing for hamburger icon*/
+.menu {
+    margin-top: 0.2rem;
+}
+/*getting rid of the checkbox mark*/
+.nav__checkbox{
+    display: none;
+}
+
+.nav__menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 1rem;
+    
+}
+ .nav__menu li{
+    list-style: none;
+    display: none;
+    
+}
+.nav__menu :first-child{
+    margin-right:auto;
+    display: block;
+}
+.nav__menu a{
+    text-decoration: none;
+    color: #823b00;
+    font-size: 1.2rem;
+}
+.nav img{
+    width: 1.5rem;
+    fill: #f3d4b8 ;
+}
+#nav__checkbox:checked ~ ul.navbar-links li {
+ display: block;
+
+ 
+}
+#nav__checkbox:checked ~label.nav__toggle .close{
+    display: block;
+}
+#nav__checkbox:checked ~label.nav__toggle .menu{
+    display: none;
+}
+
+.navbar-links {
+    display:none;
+}
+#nav__checkbox:checked ~ .navbar-links {
+    display:block;
+}
+/*.nav__toggle{
+    display: none;
+}*/
+/*media state for it to appear only on small sizes*/
+@media only screen and (min-width:560){
+    .nav, .nav__toggle, .nav__menu{
+        flex-direction: row;
+        background-color: #823b00;
+  
+    }
+    li{
+        display: block;
+    }
+}
 
 
 /* 
@@ -110,5 +202,11 @@ such that no text wraps
     justify-content: space-between;
 }
 
+.nav__toggle{
+    display: none;
+
 }
-/*coment*/ 
+
+
+}
+/*coment*/
